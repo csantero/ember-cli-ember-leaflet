@@ -1,0 +1,26 @@
+{
+  "name": "ember-cli-ember-leaflet",
+  "version": "0.0.1",
+  "description": "ember-cli addon adding support for ember-leaflet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember-addon",
+    "ember",
+    "ember.js",
+    "ember-cli",
+    "leaflet",
+    "leaflet.js",
+    "ember-leaflet"
+  ],
+  "author": "Chris Santero",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/csantero/ember-cli-ember-leaflet.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
