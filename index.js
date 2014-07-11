@@ -26,7 +26,11 @@ EmberCLIEmberLeaflet.prototype.treeFor = function treeFor(name) {
 EmberCLIEmberLeaflet.prototype.included = function included(app) {
   app.import('vendor/leaflet-dist/leaflet-src.js');
   app.import('vendor/leaflet.markerclusterer/dist/leaflet.markercluster-src.js');
-  app.import('vendor/ember-leaflet/dist/ember-leaflet.js');
+  app.import('vendor/ember-leaflet/dist/ember-leaflet.js', {
+    exports: {
+      'ember-leaflet': 'default'
+    }
+  });
 
   app.import('vendor/leaflet-dist/leaflet.css');
   app.import('vendor/leaflet.markerclusterer/dist/MarkerCluster.Default.css');
