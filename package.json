@@ -22,8 +22,8 @@
     "url": "git://github.com/csantero/ember-cli-ember-leaflet.git"
   },
   "dependencies": {},
-  "devDependencies": {
-    "broccoli-merge-trees": "^0.1.4",
-    "broccoli-static-compiler": "^0.1.4"
+  "devDependencies": {},
+  "peerDependencies": {
+    "ember-cli-leaflet": "^0.0.1"
   }
 }
