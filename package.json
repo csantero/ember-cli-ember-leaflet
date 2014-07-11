@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-ember-leaflet",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ember-cli addon adding support for ember-leaflet",
   "main": "index.js",
   "scripts": {
