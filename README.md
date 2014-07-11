@@ -7,7 +7,12 @@ _WARNING_: This addon requires a version of `ember-cli` greater than 0.0.39.
 
 ##Usage
 
-No changes to your Brocfile are necessary. Just run the following command from inside your project, and ember-cli will automatically pick up the addon.
+Run the following commands to install this addon in your project.
 ```
+npm install ember-cli-leaflet --save-dev
 npm install ember-cli-ember-leaflet --save-dev
 ```
+
+`ember-cli` knows how to load addons based on the presence of packages in your project's `package.json` that use the `ember-addon` npm keyword. At the moment there is no way for addons to declare dependencies on other addons. Therefore, you must install dependency addon packages separately.
+
+__IMPORTANT__ Until `ember-cli` supports tracking third-party AMD package dependencies, you must ensure that `ember-cli-leaflet` is placed before `ember-cli-ember-leaflet` in your `package.json`. Otherwise `ember-cli` will concatenate the scripts in the wrong order.
