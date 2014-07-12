@@ -24,6 +24,6 @@
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {
-    "ember-cli-leaflet": "^0.0.1"
+    "ember-cli-leaflet": "^0.0.2"
   }
 }
