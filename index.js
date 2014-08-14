@@ -1,7 +1,5 @@
 var path = require('path');
 var fs = require('fs');
-var pickFiles = require('broccoli-static-compiler');
-var mergeTrees = require('broccoli-merge-trees');
 
 function unwatchedTree(dir) {
   return {
