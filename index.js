@@ -29,6 +29,11 @@ EmberCLIEmberLeaflet.prototype.included = function included(app) {
       'ember-leaflet': 'default'
     }
   });
+  app.import('vendor/leaflet.markerclusterer/dist/leaflet.markercluster-src.js', {
+    exports: {
+      'L': 'default'
+    }
+  });
   app.import('vendor/leaflet.markerclusterer/dist/MarkerCluster.Default.css');
 };
 
