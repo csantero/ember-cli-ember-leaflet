@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-ember-leaflet",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "ember-cli addon adding support for ember-leaflet",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,9 @@
     "type": "git",
     "url": "git://github.com/csantero/ember-cli-ember-leaflet.git"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "peerDependencies": {
-    "ember-cli-leaflet": "^0.0.4"
-  }
+  "dependencies": {
+    "broccoli-merge-trees": "^0.1.4",
+    "broccoli-static-compiler": "^0.1.4"
+  },
+  "devDependencies": {}
 }
