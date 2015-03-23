@@ -6,6 +6,6 @@ module.exports = {
   },
   
   afterInstall: function() {
-    return this.addBowerPackageToProject('ember-leaflet', '~0.6.0');
+    return this.addBowerPackageToProject('ember-leaflet', '~0.6.1');
   }
 };
