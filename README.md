@@ -1,6 +1,8 @@
 ember-cli-ember-leaflet
 =======================
 
+_DEPRECATED_: Use [ember-leaflet 2.0](https://github.com/miguelcobain/ember-leaflet) instead, which is now an Ember CLI addon.
+
 This is an addon for [ember-cli](http://iamstef.net/ember-cli/) that adds support for [Leaflet](https://github.com/Leaflet/Leaflet) via the [ember-leaflet](https://github.com/gabesmed/ember-leaflet) library.
 
 ##Usage
